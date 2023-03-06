@@ -11,7 +11,7 @@ public class ThreadID extends Thread {
 	@Override
 	public void run() {
 		// so executa o que está aqui 
-		System.out.println(idThread);
+		System.out.println("TID # "+ getId());
 	}
  
 }
